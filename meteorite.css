@@ -1,0 +1,107 @@
+html {
+  background-color: rgb(34, 24, 97);
+}
+
+body {
+  background-color: darkslateblue;
+  border: solid rgb(99, 86, 185) 10px;
+  margin: 2% 5%;
+  font-family: 'Comfortaa', cursive;
+}
+
+#header h1 {
+  margin-left: 20px;
+  margin-bottom: 0px;
+  font-size: 55px;
+  font-weight: bolder;
+  color: rgb(241, 241, 255);
+  text-shadow: rgb(252, 179, 89) 5px 1px 0px;
+}
+
+#header p {
+  margin: 15px 25px;
+  font-size: 20px;
+  color: rgb(241, 241, 255);
+}
+
+a {
+  color: rgb(189, 139, 255);
+}
+
+fieldset {
+  border: solid rgba(180, 148, 255, 0.856) 5px;
+  margin: 40px 20px;
+  border-radius: 40px;
+  padding: 40px;
+  width: 55%;
+}
+
+legend {
+  font-size: 20px;
+  color: rgba(180, 148, 255, 0.815);
+}
+
+.input {
+  width: 40%;
+  height: 15%;
+  border-radius: 30px;
+  padding-left: 40px;
+  font-size: 15px;
+  font-family: 'DotGothic16', sans-serif;
+  letter-spacing: 5px;
+}
+
+.desc {
+  margin: 8px 0px;
+  font-size: 15px;
+  color: rgba(236, 181, 40, 0.658);
+}
+
+label {
+  font-weight: bolder;
+  margin-right: 10px;
+}
+
+button {
+  background-color: rgb(34, 24, 97);
+  color: rgb(233, 197, 105);
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 5px;
+  width: 60px;
+  height: 30px;
+  margin-left: 30px;
+}
+
+#table-description {
+  margin-top: 50px;
+  margin-left: 25px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: goldenrod;
+  text-shadow: goldenrod 0px 1px 0px;
+}
+table {
+  width: 100%;
+}
+thead tr {
+  background-color: goldenrod;
+  padding: 20px;
+}
+
+th {
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 22px;
+}
+
+td:first-child {
+  border-left: solid rgb(233, 197, 105) 2px;
+}
+
+td {
+  font-family: 'DotGothic16', sans-serif;
+  font-size: 17px;
+  color: beige;
+  border-right: solid rgb(233, 197, 105) 2px;
+  padding-left: 15px;
+}

@@ -1,0 +1,65 @@
+<!--**********************************************************************************
+    Peer Review Assignment 5 - JSON and AJAX (Part B)
+    Author: Team 2
+    Date: February 23, 2021
+    Description: Fetch data from a JSON-based Open Data dataset using AJAX
+ **********************************************************************************-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Meteorite Landing Records</title>
+    <link rel="stylesheet" href="meteorite.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=DotGothic16&display=swap" rel="stylesheet"> 
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="header">
+      <h1>Meteorite Landing Records  <i class="fa fa-rocket"></i></h1>
+      <p>Search through all the known meteorite landings from <a href="https://www.nasa.gov/open/researchaccess/nasa-data-portal">NASA's Data Portal</a> and The Meteoritical Society</p>
+    </div>
+    <form>
+            <fieldset>
+              <legend>Filter Records</legend>
+              <input class="input" name="name" id="name"><br>
+              <p class="desc"><em>Search meteorite landings by Meteorite Name</em></p><br>
+              <input type="radio" name="meteorite_class" value="Iron" id="Iron">
+              <label for="Iron">Iron</label>
+              <input type="radio" name="meteorite_class" value="Pallasite" id="Pallasites">
+              <label for="Pallasites">Pallasites</label>
+              <input type="radio" name="meteorite_class" value="Mesosiderite" id="Mesosiderites">
+              <label for="Mesosiderites">Mesosiderites</label>
+              <input type="radio" name="meteorite_class" value="All" id="All">
+              <label for="All">All</label>
+              <button class="search" type="submit" id="search">Go</button> 
+            </fieldset>
+    </form>
+
+    <h2 id="table-description"></h2>
+    <table class="table meteorites"> 
+        <thead> 
+            <tr>
+                <th>Meteorite Name</th> 
+                <th>Composition</th>
+                <th>Mass (g)</th>  
+                <th>Status</th>
+                <th>Geolocation</th>
+            </tr> 
+        </thead> 
+        <tbody>
+            <!--INSERT ELEMENTS HERE-->      
+        </tbody> 
+    </table>
+    <script src="meteorite.js"></script>
+  </body>
+</html>
